@@ -128,9 +128,87 @@
 
 .gardening-section-header{
     font-weight: 800;
+    font-size: 25px;
 }
 
 .gardening-section-para{
     padding-top: 18px;
     font-size: 18px;
+}
+
+.gardening-list{
+    font-size: 18px;
+    padding-top: 13px;
+    list-style: square;
+}
+
+.gardening-section-button{
+    background-color: #80447d;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 14px;
+    margin-top: 12px;
+}
+
+.newsletter-section{
+    background-color: #404040;
+    text-align: center;
+}
+.newsletter-heading{
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.newsletter-para{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.newsletter-input{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.newsletter-button-section{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.newsletter-button{
+    background-color: #80447d;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    width: 130px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+.client-section{
+    text-align: center;
+}
+.client-heading{
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.client-section p{
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 800;
 }
