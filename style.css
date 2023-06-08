@@ -87,6 +87,7 @@
     background-color: #E8BF8E;
     margin: 20px;
     border-radius: 12px;
+    margin-bottom: 50px;
 }
 
 .services-page-button-one-header,
@@ -103,4 +104,33 @@
 .services-page-button-four-para{
     padding: 5px 20px 20px 20px;
     font-size: 20px;
+}
+
+.gardening-section{
+    background-color: #dadada;
+}
+
+.gardening-image-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.gardening-section-image-one,
+.gardening-section-image-two{
+    width: 300px;
+    height: 253px;
+}
+
+.gardening-section-text-section{
+    padding: 30px;
+}
+
+.gardening-section-header{
+    font-weight: 800;
+}
+
+.gardening-section-para{
+    padding-top: 18px;
+    font-size: 18px;
 }
