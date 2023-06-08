@@ -85,7 +85,7 @@
 .services-page-button-three,
 .services-page-button-four{
     background-color: #E8BF8E;
-    margin: 16px;
+    margin: 20px;
     border-radius: 12px;
 }
 
@@ -93,7 +93,7 @@
 .services-page-button-two-header,
 .services-page-button-three-header,
 .services-page-button-four-header{
-    padding: 15px;
+    padding: 20px;
     font-weight: 900;
 }
 
@@ -101,6 +101,6 @@
 .services-page-button-two-para,
 .services-page-button-three-para,
 .services-page-button-four-para{
-    padding: 10px 15px 15px 15px;
+    padding: 5px 20px 20px 20px;
     font-size: 20px;
 }
