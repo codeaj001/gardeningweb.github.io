@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Catamaran', sans-serif;
     padding: 0;
 }
 
@@ -18,12 +19,88 @@
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 30px;
 }
 
 .menu-bar-items a{
     color: #000;
     text-decoration: none;
     font-family: 'Catamaran', sans-serif;
-    padding-right: 20px;
+    justify-content: space-between;
     font-weight: bolder;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.homepage-detail-page{
+    background-image: url(images/gardenimage.jpg);
+    height: calc(100vh - 125px);
+}
+
+.homepage-detail-header{
+    color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 30px 12px 0px 12px;
+    text-align: center;
+}
+
+.homepage-detail-para{
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 12px 15px;
+}
+
+.homepage-detail-button-page{
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-detail-button{
+    padding: 18px;
+    border-radius: 15px;
+    border: none;
+    background-color: #80447D;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.services-page-header{
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.services-page-button-one,
+.services-page-button-two,
+.services-page-button-three,
+.services-page-button-four{
+    background-color: #E8BF8E;
+    margin: 16px;
+    border-radius: 12px;
+}
+
+.services-page-button-one-header,
+.services-page-button-two-header,
+.services-page-button-three-header,
+.services-page-button-four-header{
+    padding: 15px;
+    font-weight: 900;
+}
+
+.services-page-button-one-para,
+.services-page-button-two-para,
+.services-page-button-three-para,
+.services-page-button-four-para{
+    padding: 10px 15px 15px 15px;
+    font-size: 20px;
 }
